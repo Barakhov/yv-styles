@@ -28,6 +28,7 @@ export default {
     '@/assets/css/reset.css',
     '@/assets/css/flexgrid.css',
     '@/assets/css/base.css',
+    '@/assets/css/utility.css',
     '@/assets/css/link.css',
   ],
 

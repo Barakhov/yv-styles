@@ -14,60 +14,63 @@
   display: inline-flex;
   height: 100%;
   max-height: var(--line-height-base);
-  width: 18px;
   transform: translate3d(0, 0, 0);
   transition: transform 0.125s ease-in-out;
-  
+
+  width: 18px;
   /*TO DO: check width and height for icons*/
 }
 .link-icon--vertical {
   height: 16px;
   width: 11px;
+  /*TO DO: check width and height for icons*/
 }
 .link--red .link-text {
-  color: #be3c50;
+  color: var(--color-yv-red);
 }
 .link--red .link-icon {
-  fill: #be3c50;
+  fill: var(--color-yv-red);
 }
 .link--blue .link-text {
-  color: #3237be;
+  color: var(--color-yv-blue);
 }
 .link--blue .link-icon {
-  fill: #3237be;
+  fill: var(--color-yv-blue);
 }
 .link--green .link-text {
-  color: #007364;
+  color: var(--color-yv-green);
 }
 .link--green .link-icon {
-  fill: #007364;
+  fill: var(--color-yv-green);
 }
 .link--mustard-yellow .link-text {
-  color: #ffc882;
+  color: var(--color-mustard-yellow);
 }
 .link--mustard-yellow .link-icon {
-  fill: #ffc882;
+  fill: var(--color-mustard-yellow);
 }
 .link--baby-blue .link-text {
-  color: #b9dcff;
+  color: var(--color-baby-blue);
 }
 .link--baby-blue .link-icon {
-  fill: #b9dcff;
+  fill: var(--color-baby-blue);
 }
 .link--pastel-green .link-text {
-  color: #c8ffe1;
+  color: var(--color-pastel-green);
 }
 .link--pastel-green .link-icon {
-  fill: #c8ffe1;
+  fill: var(--color-pastel-green);
 }
 .link--to_right .link-icon {
   margin-left: 0.27273rem;
+  /*TO DO: check margin for icons*/
 }
 .link--to_right:hover .link-icon {
   transform: translate3d(4px, 0, 0);
 }
 .link--to_left .link-icon {
   margin-right: 0.27273rem;
+  /*TO DO: check margin for icons*/
 }
 .link--to_left:hover .link-icon {
   transform: traFnslate3d(-4px, 0, 0);
@@ -75,6 +78,7 @@
 .link--to_bottom .link-icon {
   margin-right: 0rem;
   margin-left: 0.45455rem;
+  /*TO DO: check margin for icons*/
 }
 .link--to_bottom:hover .link-icon {
   transform: translate3d(0, 4px, 0);
@@ -87,22 +91,22 @@
   margin-bottom: 0;
 }
 .link_inline--red {
-  color: #be3c50;
+  color: var(--color-yv-red);
 }
 .link_inline--blue {
-  color: #3237be;
+  color: var(--color-yv-blue);
 }
 .link_inline--green {
-  color: #007364;
+  color: var(--color-yv-green);
 }
 .link_inline--mustard-yellow {
-  color: #ffc882;
+  color: var(--color-mustard-yellow);
 }
 .link_inline--baby-blue {
-  color: #b9dcff;
+  color: var(--color-baby-blue);
 }
 .link_inline--pastel-green {
-  color: #c8ffe1;
+  color: var(--color-pastel-green);
 }
 .link_inline:hover {
   text-decoration: none;

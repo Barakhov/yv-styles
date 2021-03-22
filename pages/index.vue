@@ -58,6 +58,8 @@
           maiores, ullam architecto beatae corrupti odio quisquam dolorum dicta
           voluptate.
         </p>
+        <p class="font-small">font small class lorem ipsum</p>
+        <p class="font-tiny">font tiny class lorem ipsum</p>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam nam
           dignissimos ratione dolore sunt ut in aspernatur quos, repellat cum

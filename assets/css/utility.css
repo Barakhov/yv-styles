@@ -1,0 +1,63 @@
+/* Classes */
+
+.hero-body {
+  font-size: var(--font-size-h6);
+  line-height: var(--line-height-h6);
+  font-weight: var(--font-weight-light);
+}
+
+.font-small {
+  font-size: var(--font-size-small);
+}
+
+.font-tiny {
+  font-size: var(--font-size-tiny);
+}
+
+/* Colors */
+
+.color-yv-blue {
+  color: var(--color-yv-blue);
+}
+.color-hip-purple {
+  color: var(--color-hip-purple);
+}
+.color-baby-blue {
+  color: var(--color-baby-blue);
+}
+.color-yv-green {
+  color: var(--color-yv-green);
+}
+.color-green-grass {
+  color: var(--color-green-grass);
+}
+.color-pastel-green {
+  color: var(--color-pastel-green);
+}
+.color-yv-red {
+  color: var(--color-yv-red);
+}
+.color-brick-red {
+  color: var(--color-brick-red);
+}
+.color-mustard-yellow {
+  color: var(--color-mustard-yellow);
+}
+.color-black {
+  color: var(--color-black);
+}
+.color-white {
+  color: var(--color-white);
+}
+
+/* Container */
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  max-width: var(--container-max-width);
+  padding-left: var(--container-padding);
+  padding-right: var(--container-padding);
+}
