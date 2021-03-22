@@ -1,0 +1,109 @@
+.link {
+  height: auto;
+  max-height: var(--line-height-base);
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: var(--gap-lg);
+}
+.link-text {
+  font-weight: inherit;
+  text-decoration: underline;
+}
+.link-icon {
+  display: inline-flex;
+  height: 100%;
+  max-height: var(--line-height-base);
+  width: 18px;
+  transform: translate3d(0, 0, 0);
+  transition: transform 0.125s ease-in-out;
+  
+  /*TO DO: check width and height for icons*/
+}
+.link-icon--vertical {
+  height: 16px;
+  width: 11px;
+}
+.link--red .link-text {
+  color: #be3c50;
+}
+.link--red .link-icon {
+  fill: #be3c50;
+}
+.link--blue .link-text {
+  color: #3237be;
+}
+.link--blue .link-icon {
+  fill: #3237be;
+}
+.link--green .link-text {
+  color: #007364;
+}
+.link--green .link-icon {
+  fill: #007364;
+}
+.link--mustard-yellow .link-text {
+  color: #ffc882;
+}
+.link--mustard-yellow .link-icon {
+  fill: #ffc882;
+}
+.link--baby-blue .link-text {
+  color: #b9dcff;
+}
+.link--baby-blue .link-icon {
+  fill: #b9dcff;
+}
+.link--pastel-green .link-text {
+  color: #c8ffe1;
+}
+.link--pastel-green .link-icon {
+  fill: #c8ffe1;
+}
+.link--to_right .link-icon {
+  margin-left: 0.27273rem;
+}
+.link--to_right:hover .link-icon {
+  transform: translate3d(4px, 0, 0);
+}
+.link--to_left .link-icon {
+  margin-right: 0.27273rem;
+}
+.link--to_left:hover .link-icon {
+  transform: traFnslate3d(-4px, 0, 0);
+}
+.link--to_bottom .link-icon {
+  margin-right: 0rem;
+  margin-left: 0.45455rem;
+}
+.link--to_bottom:hover .link-icon {
+  transform: translate3d(0, 4px, 0);
+}
+.link:hover .link-text {
+  text-decoration: none;
+}
+.link_inline {
+  text-decoration: underline;
+  margin-bottom: 0;
+}
+.link_inline--red {
+  color: #be3c50;
+}
+.link_inline--blue {
+  color: #3237be;
+}
+.link_inline--green {
+  color: #007364;
+}
+.link_inline--mustard-yellow {
+  color: #ffc882;
+}
+.link_inline--baby-blue {
+  color: #b9dcff;
+}
+.link_inline--pastel-green {
+  color: #c8ffe1;
+}
+.link_inline:hover {
+  text-decoration: none;
+}

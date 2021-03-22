@@ -1,0 +1,125 @@
+:root {
+  /* Breakpoints*/
+  --sm: 580px;   /* Big mobile / Fablet*/
+  --md: 768px;   /* iPad portrait*/
+  --lg: 1024px;  /* iPad landscape*/
+  --xl: 1280px;  /* Laptop*/
+  --xxl: 1440px; /* Desktop / Big-screen*/
+
+  /* Colors */
+  --color-yv-blue: #3237be;
+  --color-hip-purple: #af9bff;
+  --color-baby-blue: #b9dcff;
+
+  --color-yv-green: #007364;
+  --color-green-grass: #00cd78;
+  --color-pastel-green: #c8ffe1;
+
+  --color-yv-red: #be3c50;
+  --color-brick-red: #ff7d6e;
+  --color-mustard-yellow: #ffc882;
+
+  --color-black: #000000;
+  --color-white: #ffffff;
+
+  --color-dark-grey: #465a64;
+  --color-dark-grey-80: #67747c;
+  --color-dark-grey-60: #909ca2;
+  --color-dark-grey-40: #b5bdc1;
+  --color-dark-grey-20: #dadee0;
+
+  --color-light-grey: #dcdce0;
+  --color-light-grey-60: #eaeaec;
+
+  --color-light-cream: #f2f2e9;
+  --color-light-cream-60: #f7f7f2;
+
+  --color-error: #e6493a;
+  --color-error-10: rgba(230, 73, 58, 0.1);
+
+  /* Font family */
+  --font-family-base: "Founders";
+  --font-family-mono: "Founders Mono";
+
+  /* Font size Mobile*/
+  --font-size-h1: 40px;
+  --font-size-h2: 36px;
+  --font-size-h3: 32px;
+  --font-size-h4: 28px;
+  --font-size-h5: 25px;
+  --font-size-h6: 22px;
+
+  --font-size-base: 20px;
+  --font-size-small: 18px;
+  --font-size-tiny: 14px;
+
+  /* Font weight */
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 600;
+
+  /* Font line height Mobile*/
+  --line-height-h1: 40px;
+  --line-height-h2: 40px;
+  --line-height-h3: 35px;
+  --line-height-h4: 30px;
+  --line-height-h5: 30px;
+  --line-height-h6: 30px;
+
+  --line-height-base: 1.5;
+
+  /* Font color */
+  --font-color-default: var(--color-black);
+
+  /* Font spacing */
+  --letter-spacing: normal;
+
+  /* Font baseline fix */
+  --baseline-fix-val: -0.04em;
+  --baseline-fix: translateY(var(--baseline-fix-val));
+
+  /* Duration and Timing property */
+  --base-animation-duration: 0.3s;
+  --base-animation-duration-half: calc(var(--base-animation-duration) / 2);
+  --base-animation-timing: ease-in-out;
+
+  /* Spacing */
+  --gap-sm: 7px;
+  --gap: 10px;
+  --gap-md: 15px;
+  --gap-lg: 20px;
+  --gap-xl: 30px;
+
+  /* Box Shadows */
+  --shadow: 0 0 5px 0 rgba(0, 0, 0, 0.15);
+  --drop-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+
+  /* Container */
+  --container-padding: var(--gap-lg);
+  --container-max-width: var(--md);
+}
+
+@media screen and (min-width: 1024px) {
+  :root {
+    /* Font size iPad landscape*/
+    --font-size-h1: 60px;
+    --font-size-h2: 50px;
+    --font-size-h3: 42px;
+    --font-size-h4: 35px;
+    --font-size-h5: 29px;
+    --font-size-h6: 24px;
+
+    /* Font line height iPad landscape*/
+    --line-height-h1: 60px;
+    --line-height-h2: 50px;
+    --line-height-h3: 45px;
+    --line-height-h4: 35px;
+    --line-height-h5: 30px;
+    --line-height-h6: 30px;
+
+    /*Container iPad landscape*/
+    --container-padding: var(--gap-md);
+    --container-max-width: calc(var(--xl) - var(--gap-md) * 2);    
+  }
+}

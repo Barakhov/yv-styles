@@ -14,12 +14,21 @@ export default {
       { hid: 'description', name: 'description', content: '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      {
+        rel: 'stylesheet',
+        href: 'https://cdn.payvision.com/assets/beat/css/fonts.css'
+      }
     ]
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
+    '@/assets/css/vars.css',
+    '@/assets/css/reset.css',
+    '@/assets/css/flexgrid.css',
+    '@/assets/css/base.css',
+    '@/assets/css/link.css',
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
