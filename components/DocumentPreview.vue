@@ -1,11 +1,11 @@
 <template>
   <div class="document-preview">
-    <h6 class="color-yv-blue">E-commerce</h6>
+    <h6 class="color-yv-blue"> E-commerce</h6>
     <div class="document-preview__image"></div>
     <h5 class="color-yv-red">
       Mobile payment fraud is rising, how can trends merchants prevent it?
     </h5>
-    <p class="si_si">
+    <p>
       Mobile payment fraud is rising every year. Learn the significant
       m-commerce fraud trends and what merchants can do to prevent payment fraud
       happening to their customers.
@@ -20,6 +20,7 @@
 </template>
 
 <style scoped lang="postcss">
+
 .document-preview {
   --document-preview-margin-bottom: 30px;
 }
@@ -42,14 +43,9 @@
   margin-bottom: var(--gap-xxl);
   height: 0;
   padding-top: 55%;
+
+  /* temp */
   background-color: var(--color-light-cream);
-}
-
-.si {
-
-  &_si {
-    color: red;
-  }
 }
 
 </style>

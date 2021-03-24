@@ -1,9 +1,9 @@
 :root {
   /* Breakpoints*/
-  --sm: 580px;   /* Big mobile / Fablet*/
-  --md: 768px;   /* iPad portrait*/
-  --lg: 1024px;  /* iPad landscape*/
-  --xl: 1280px;  /* Laptop*/
+  --sm: 580px; /* Big mobile / Fablet*/
+  --md: 768px; /* iPad portrait*/
+  --lg: 1024px; /* iPad landscape*/
+  --xl: 1280px; /* Laptop*/
   --xxl: 1440px; /* Desktop / Big-screen*/
 
   /* Colors */
@@ -80,17 +80,19 @@
   --baseline-fix: translateY(var(--baseline-fix-val));
 
   /* Duration and Timing property */
-  --base-animation-duration: 0.3s;
+  --base-animation-duration: 0.25s;
   --base-animation-duration-half: calc(var(--base-animation-duration) / 2);
   --base-animation-timing: ease-in-out;
 
   /* Spacing */
-  --gap-sm:  7px;
-  --gap:     10px;
-  --gap-md:  15px;
-  --gap-lg:  20px;
-  --gap-xl:  25px;
-  --gap-xxl: 30px;
+  --gap-xs:   4px;
+  --gap-sm:   7px;
+  --gap:      10px;
+  --gap-md:   15px;
+  --gap-lg:   20px;
+  --gap-xl:   25px;
+  --gap-xxl:  30px;
+  --gap-xxxl: 40px;
 
   /* Box Shadows */
   --shadow: 0 0 5px 0 rgba(0, 0, 0, 0.15);
@@ -100,6 +102,11 @@
   --container-padding: var(--gap-lg);
   --container-max-width: var(--md);
 
+  /* Mobile - Desktop */
+  --mobile-display: block !important;
+  --desktop-display: none !important;
+  --mobile-pointer-events: auto;
+  --desktop-pointer-events: none;
 }
 
 @media screen and (min-width: 1024px) {
@@ -122,7 +129,12 @@
 
     /*Container iPad landscape*/
     --container-padding: var(--gap-md);
-    --container-max-width: calc(var(--xl) - var(--gap-md) * 2);    
-  }
+    --container-max-width: calc(var(--xl) - 80px);
 
+    /* Mobile - Desktop */
+    --mobile-display: none!important;
+    --desktop-display: block!important;
+    --mobile-pointer-events: none;
+    --desktop-pointer-events: auto;
+  }
 }

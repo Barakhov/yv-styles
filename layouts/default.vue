@@ -4,7 +4,7 @@
     <main>
       <Nuxt />
     </main>
-    <footer>footer</footer>
+    <YvFooter />
   </div>
 </template>
 
