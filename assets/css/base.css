@@ -45,7 +45,7 @@ h1 {
 h2 {
   font-size: var(--font-size-h2);
   line-height: var(--line-height-h2);
-  margin-bottom: var(--gap-xl);
+  margin-bottom: var(--gap-xxl);
 }
 
 h3 {
@@ -102,4 +102,3 @@ ul li {
 ol li {
   margin-bottom: var(--gap-md);
 }
-

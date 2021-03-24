@@ -1,8 +1,26 @@
 <template>
   <div class="container">
-    <!-- <Logo></Logo>
-      <Logo2></Logo2> -->
+    <div class="test-grid">
+      <div class="test-grid-item"><DocumentPreview/></div>
+      <div class="test-grid-item"><DocumentPreview/></div>
+      <div class="test-grid-item"><DocumentPreview/></div>
+      <div class="test-grid-item"><DocumentPreview/></div>
+      <div class="test-grid-item"><DocumentPreview/></div>
+      <div class="test-grid-item"><DocumentPreview/></div>
+    </div>
     <br>
+    <hr>
+    <br>
+    <div class="row">
+      <div class="xs-12 md-6 lg-4"><DocumentPreview/></div>
+      <div class="xs-12 md-6 lg-4"><DocumentPreview/></div>
+      <div class="xs-12 md-6 lg-4"><DocumentPreview/></div>
+      <div class="xs-12 md-6 lg-4"><DocumentPreview/></div>
+      <div class="xs-12 md-6 lg-4"><DocumentPreview/></div>
+      <div class="xs-12 md-6 lg-4"><DocumentPreview/></div>
+    </div>
+    <br>
+    <hr>
     <br>
     <div class="row">
       <div class="xs-12 md-6">
@@ -27,6 +45,7 @@
       </div>
     </div>
     <br>
+    <hr>
     <br>
     <div class="row">
       <div class="xs-12 md-4">
@@ -43,6 +62,7 @@
       </div>
     </div>
     <br>
+    <hr>
     <br>
     <div class="row">
       <div class="xs-12 md-6">

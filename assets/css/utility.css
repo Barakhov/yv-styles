@@ -61,3 +61,13 @@
   padding-left: var(--container-padding);
   padding-right: var(--container-padding);
 }
+
+.test-grid {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.test-grid-item {
+  height: auto;
+}

@@ -85,11 +85,12 @@
   --base-animation-timing: ease-in-out;
 
   /* Spacing */
-  --gap-sm: 7px;
-  --gap: 10px;
-  --gap-md: 15px;
-  --gap-lg: 20px;
-  --gap-xl: 30px;
+  --gap-sm:  7px;
+  --gap:     10px;
+  --gap-md:  15px;
+  --gap-lg:  20px;
+  --gap-xl:  25px;
+  --gap-xxl: 30px;
 
   /* Box Shadows */
   --shadow: 0 0 5px 0 rgba(0, 0, 0, 0.15);
@@ -98,6 +99,7 @@
   /* Container */
   --container-padding: var(--gap-lg);
   --container-max-width: var(--md);
+
 }
 
 @media screen and (min-width: 1024px) {
@@ -122,4 +124,5 @@
     --container-padding: var(--gap-md);
     --container-max-width: calc(var(--xl) - var(--gap-md) * 2);    
   }
+
 }
